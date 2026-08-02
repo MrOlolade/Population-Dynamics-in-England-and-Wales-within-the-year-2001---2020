@@ -1,0 +1,13 @@
+# Data files (not committed — see README for download instructions)
+data/
+*.csv
+
+# R session/history files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
