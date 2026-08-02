@@ -26,7 +26,7 @@ MYEB2 was reshaped from wide format (60,242 rows × 225 columns) into a long pan
 
 The analysis follows five stages:
 
-1. **Data integration & cleaning** — importing and standardising the three ONS datasets into a single analytical panel; recoding sex codes, reshaping wide-to-long, handling structural gaps (`Unattrib` variable from 2012 onward) and genuine outliers (e.g. City of London, 48.6% growth)
+1. **Data integration & cleaning** - importing and standardising the three ONS datasets into a single analytical panel; recoding sex codes, reshaping wide-to-long, handling structural gaps (`Unattrib` variable from 2012 onward) and genuine outliers (e.g. City of London, 48.6% growth)
 2. **Descriptive analytics** - population trends, growth rates, and regional comparisons across 331 local authorities, 2001 - 2020
 3. **Hypothesis testing** - nine formal statistical tests examining demographic divergence between England and Wales, sexes, and growth classes
 4. **Predictive modelling**
@@ -37,7 +37,7 @@ The analysis follows five stages:
 
 ## Key Results
 
-**Population growth, 2001–2020:** England & Wales grew from 52.4M to 59.7M (+14.1%). England grew ~1.6x faster than Wales (14.4% vs 8.9%). Growth accelerated 2004–2010 following EU expansion, then slowed post-2017. International net migration accounted for 56.6% of total growth.
+**Population growth, 2001 – 2020:** England & Wales grew from 52.4M to 59.7M (+14.1%). England grew at ~1.6x the rate of Wales (14.4% vs 8.9%). Growth accelerated during 2004 – 2010 following EU expansion, then slowed after 2017. International net migration accounted for 56.6% of total growth.
 
 **Demographic typology across 331 local authorities:**
 
@@ -60,7 +60,7 @@ The analysis follows five stages:
 
 OLS was recommended for policy use despite not winning every metric, due to its interpretability. Migration rate, death rate and birth rate were the strongest recurring predictors across all models.
 
-**Classification (growth class — Low/Medium/High):**
+**Classification (growth class - Low/Medium/High):**
 
 | Model | Accuracy | Macro F1 |
 |---|---|---|
@@ -80,7 +80,7 @@ OLS was recommended for policy use despite not winning every metric, due to its 
 ## Limitations
 
 - Small training set (n=267) limits ensemble model generalisation
-- No spatial modelling — geographic patterns unaccounted for
+- No spatial modelling - geographic patterns unaccounted for
 - Random Forest showed some overfitting (train R² 0.97 vs test R² 0.74)
 
 ## Repository Structure
@@ -89,7 +89,7 @@ OLS was recommended for policy use despite not winning every metric, due to its 
 ├── population_dynamics_analysis.R      # Full analysis script
 ├── Population_Dynamics_Summary.pdf     # Slide-deck summary of methodology and results
 ├── README.md
-└── data/                               # (not included — see Data section)
+└── data/                               # (not included - see Data section)
 ```
 
 ## Tools & Packages
