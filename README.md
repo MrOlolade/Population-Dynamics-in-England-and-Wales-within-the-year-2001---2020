@@ -99,4 +99,4 @@ R 4.3, with `tidyverse`, `janitor`, `skimr`, `naniar`, `broom`, `car`, `caret`, 
 ## Author
 
 Hakeem Ololade Safiriyu (MSc)
-[LinkedIn](www.linkedin.com/in/hakeem-safiriyu-1b2534386)
+https://www.linkedin.com/in/hakeem-safiriyu-1b2534386
