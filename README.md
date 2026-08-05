@@ -1,4 +1,4 @@
-# Population Dynamics in England & Wales Within The Year 2001 - 2020
+# England-Wales-Population-Dynamics
 
 A data analytics study of demographic change across 331 local authorities in England and Wales, built in R as part of an MSc Data Science project at the University of Gloucestershire.
 
